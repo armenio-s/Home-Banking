@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Banking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sweetalert.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-piggy-bank fa-2x"><span class="tipografia">Banco Nacional</span></i>
+        </div>
+        <div class="cerrar-sesion"><i class="fas fa-times-circle"><a class="cerrar" href="index.html">Cerrar
+                    Sesión</a></i></div>
+        <div class="icono-usuario">
+            <a href="datos-cuenta.html"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="datos-usuario">
+            <ul>
+                <li><span class="datos">Cta. Nro:</span> 187/364789</li>
+                <li><span class="datos">CBU:</span> 36000071546000044361788</li>
+                <li><span class="datos">Sucursal:</span> Lanús (187)</li>
+            </ul>
+            <div class="align-left"><span id="nombre">Bienvenido/a</span>
+                <img class="avatar" src="img/perfil.png" />
+            </div>
+        </div>
+        <section id="principal">
+            <div class="opciones">
+                <h1 class="tu-cuenta">Tu Cuenta</h1>
+                <button class="links" onclick="extraerDinero()">Extraer dinero</button>
+                <button class="links" onclick="depositarDinero()">Depositar dinero
+                </button><button class="links" onclick="pagarServicio()">Pagar Servicios</button>
+                <button class="links" onclick="cambiarLimiteDeExtraccion()">Cambiar límite de extracción</button>
+                <button class="links" onclick="transferirDinero()">Transferir dinero</button>
+                <button class="link-cierre" onclick="cerrarSesion()">Cerrar Sesión</button>
+            </div>
+            <div class="informacion">
+                <div class="cuenta-info">
+                    <p><span class="saldo">Saldo en tu cuenta</span></p>
+                    <h3 id="saldo-cuenta">$</h3>
+                    <p id="limite-extraccion">Tu limite de extraccion es: $</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/homebanking.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

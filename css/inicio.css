@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tipografia {
+    margin-left: 8px;
+}
+
+.logo {
+    color: #fff;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    max-width: 420px;
+    padding: 75px 0 25px 0;
+    align-items: center;
+    background: #FEFDFB;
+    box-shadow: 0 4px 8px 0 #77685D;
+}
+
+.avatar {
+    margin-top: -105px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+form {
+    width: 80%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.caja p {
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.caja input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.caja input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #0784DB;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #00355C;
+    font-size: 16px;
+}
+.caja input[type="button"]
+{   
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #00355C;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.caja input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #0784DB;
+}
+.caja a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #77685D;
+}
+
+.caja a:hover {
+    color: #0784DB;
+}
+
+#notificacion {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 360px) {
+
+    .caja {
+        margin-top: 75px;
+        width: 98%;
+    }
+
+    .caja input[type="submit"] {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .caja {
+        margin-top: 75px;
+        width: 90%;
+        padding: 75px 0 45px 0;
+    }
+}

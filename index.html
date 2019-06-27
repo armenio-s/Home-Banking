@@ -1,0 +1,42 @@
+<html lang="es">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sweetalert.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+    crossorigin="anonymous">
+    <script src="js/inicio_sesion.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-piggy-bank fa-2x"><span class="tipografia">Banco Nacional</span></i>
+        </div>
+    </header>
+
+    <div class="caja">
+    <img src="img/perfil-grande.png" class="avatar">
+        <h1>Bienvenido a <br> Online Banking :)</h1>
+        <form action="mi-cuenta.html" id="ingreso">
+            <p>Ingresá tus datos para operar</p>
+            <input type="text" id="usuario" name="usuario" oninput="validar()" placeholder="Ingresá tu usuario" required>
+            <input type="password" id="password" name="password"  oninput="validar()" placeholder="Ingresá tu contraseña" required>
+            <p id="notificacion">Usuario y/o contraseña incorrectos</p>
+            <input type="button" onclick="validarDatos()" name="Ingresar" value="Ingresar">
+            <a href="#" onclick="recuperarPassword()">¿Olvidaste tu contraseña?</a>
+        </form>
+    </div>
+
+    <script src="js/inicio_sesion.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+</body>
+
+</html>

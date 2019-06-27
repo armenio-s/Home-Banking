@@ -1,0 +1,252 @@
+@import url(mobile.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00355C;
+    width: 100%;
+    height: 50px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos-usuario ul {
+    list-style: none;
+    margin-left: 1%;
+}
+
+.datos-usuario {
+    display: block;
+    margin-top: 65px;
+    display: flex;
+    margin: 7% auto 0;
+    justify-content: space-between;
+}
+
+.datos-usuario ul li {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    margin-left: 8px;
+}
+
+#nombre {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.datos {
+    font-weight: 600;
+}
+
+.align-left {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    color: #fff;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipografia {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.cerrar-sesion {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: -25px;
+    color: #fff;
+}
+
+.cerrar-sesion:hover {
+    color: red;
+}
+
+.icono-usuario {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+    margin-top: -24px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.icono-usuario a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icono-usuario a:hover {
+    color: #0778c8;
+}
+
+.icono-volver {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+    margin-top: -22px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.icono-volver a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icono-volver a:hover {
+    color: #0778c8;
+}
+
+.usuario {
+    text-decoration: none;
+}
+
+.cerrar {
+    margin-left: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.opciones {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.informacion {
+    display: flex;
+    width: 65%;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #043C64, #349AE1);
+    align-items: center;
+}
+
+.tu-cuenta {
+    color: #0778C8;
+    margin-top: 0;
+    margin-bottom: 45px;
+    margin-left: 5%;
+}
+
+.links {
+    display: block;
+    border: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 35px;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-left: 5%;
+    font-weight: 200;
+    color: #043C64;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #0778c8;
+}
+
+.link-cierre {
+    display: block;
+    border: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 35px;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-left: 5%;
+    font-weight: 200;
+    color: #043C64;
+    cursor: pointer;
+}
+
+.link-cierre:hover {
+    color: #0778c8;
+}
+
+.cuenta-info {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.saldo {
+    font-size: 1.2rem;
+}
+
+#saldo-cuenta {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    font-size: 3rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-weight: 200;
+}
+
+#limite-extraccion {
+    overflow: hidden;
+    font-size: 1.2rem;
+    text-overflow: ellipsis;
+}
+
+.cuenta-usuario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    align-items: center;
+}
+
+.cuenta-usuario .avatar {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+.cuenta-usuario h1 {
+    margin-bottom: 25px;
+}
+
+.cuenta-usuario ul li {
+    text-align: center;
+    list-style: none;
+}

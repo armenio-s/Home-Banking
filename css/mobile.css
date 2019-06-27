@@ -1,0 +1,132 @@
+@media screen and (max-width: 300px) {
+    .tipografia {
+        display: none;
+    }
+
+    .caja {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .caja {
+        margin-top: 100px;
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    section .opciones {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    section .informacion {
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    section .cuenta-info .saldo {
+        font-size: 0.9rem;
+    }
+
+    section .cuenta-info #limite-extraccion {
+        font-size: 0.9rem;
+    }
+
+    .opciones .links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #principal .opciones {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .opciones .link-cierre {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .datos-usuario {
+        display: none;
+    }
+
+    #principal .opciones .tu-cuenta {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    header .logo .tipografia {
+        font-size: 1.3rem;
+    }
+
+    header .logo i {
+        margin-top: 7px;
+        font-size: 1.3rem;
+    }
+
+    header .cerrar-sesion {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    #principal .opciones .link-cierre {
+        display: none;
+    }
+
+    header .cerrar-sesion {
+        margin-right: 2%;
+    }
+
+    header .icono-usuario {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 960px) {
+
+    main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .cuenta-info #saldo-cuenta {
+        font-size: 5rem;
+    }
+
+    header .cerrar-sesion {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    
+    main {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header .cerrar-sesion {
+        margin-right: 15%;
+    }
+}
